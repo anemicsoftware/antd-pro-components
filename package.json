@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "name": "antd-pro-components",
   "license": "MIT",
   "workspaces": [
     "packages/*"
@@ -158,7 +158,5 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "pre-commit": "pretty-quick --staged",
-    "commit-msg": "fabric verify-commit"
   }
 }
